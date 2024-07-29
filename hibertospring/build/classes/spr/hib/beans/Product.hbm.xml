@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="spr.hib.beans">
+    <class name="Product" table="producttab">
+    <id name="prodId" column="pid"/>
+    <property name="prodName" column="pName"/>
+    <property name="description" column="dcp"/>
+    <property name="price" column="price1"/>
+    <property name="proCategory" column="pct"/>
+    <property name="offer" column="offer1"/>
+    <property name="brandName" column="brand"/>
+    </class> 
+</hibernate-mapping>
